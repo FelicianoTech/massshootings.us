@@ -27,7 +27,7 @@
 <body class="{{ if .IsHome }}home {{ end }}{{ if .Section }}section-{{ .Section }}{{ end }} outputformat-{{ $.Scratch.Get "curOutputFormat" }}">
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
-	{{ if not .IsHome }}{{ partial "footer" . }}{{ end }}
+	{{ partial "footer" . }}
 	{{ partial "footer-js" . }}
 </body>
 </html>

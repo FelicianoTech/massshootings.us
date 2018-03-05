@@ -15,6 +15,7 @@
  * *********************************************/
 html,
 body{
+	height: 100%;
 	min-height: 100%;
 }
 
@@ -28,8 +29,10 @@ html{
 	}
 
 body{
+	display: flex;
+	flex-direction: column;
 	background-color: #2D2D2D;
-	padding: 10%;
+	padding: 1opx;
 	padding-top: 5vw;
 }
 
@@ -58,26 +61,16 @@ body > header{
 				}
 
 main{
-	margin: 10px auto;
-	background-color: #F9F9F9;
-	padding: 1px 2% 20px;
-	width: 60%;
+	flex-grow: 1;
 }
 	main h1{
 	}
 
 body > footer{
-	padding: 30px 10%;
-	text-align: center;
-	font-weight: bold;
+	padding: 10px 20px;
 }
 	body > footer p{
 		margin: 0;
-	}
-
-	body > footer .starbucks{
-		height: 3.3rem;
-		vertical-align: -10px;
 	}
 
 
@@ -93,11 +86,22 @@ body{
 	font-family: "Lalezar", "Arial Black", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.5;
+	color: #004588; /* blue */
 	color: #DDDBCE;
 }
 	body a{
 		color: #DDDBCE;
 	}
+
+main h1{
+	font-size: 5.5rem;
+}
+
+body > footer{
+	font-family: "Arial Black", sans-serif;
+	font-size: 1.3rem;
+}
+
 
 
 

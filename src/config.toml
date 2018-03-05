@@ -1,0 +1,21 @@
+baseurl = "https://MassShootings.us/"
+title = "Mass Shootings in the U.S."
+languageCode = "en-us"
+theme = "mass-shootings-us-2018"
+
+googleAnalytics = "UA-110993459-2"
+
+enableEmoji = true
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 10

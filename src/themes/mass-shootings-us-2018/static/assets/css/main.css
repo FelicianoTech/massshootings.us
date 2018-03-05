@@ -62,11 +62,14 @@ body > header{
 
 main{
 	flex-grow: 1;
+	padding: 5px 15px;
 }
 	main h1{
 	}
 
 body > footer{
+	display: flex;
+	justify-content: space-between;
 	padding: 10px 20px;
 }
 	body > footer p{

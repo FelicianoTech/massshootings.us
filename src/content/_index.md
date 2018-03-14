@@ -2,12 +2,12 @@
 title: "Mass Shootings in the United States"
 ---
 
-<span class="major-number">45</span>
+<span class="major-number">46</span>
 [this year](http://www.gunviolencearchive.org/reports/mass-shooting)
 
 <a class="twitter-share-button"
 	href="https://twitter.com/share"
-	data-text="There have been 45 mass shootings in the U.S. already this year! "
+	data-text="There have been 46 mass shootings in the U.S. already this year! "
 	data-hashtags="MarchForOurLives"
 	data-url="https://massshootings.us"
 	data-via="FelicianoTech"

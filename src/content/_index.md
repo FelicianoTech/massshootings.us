@@ -2,8 +2,23 @@
 title: "Mass Shootings in the United States"
 ---
 
-<span class="major-number">46</span>
-[this year](http://www.gunviolencearchive.org/reports/mass-shooting)
+<script type="text/JavaScript">
+	var lastDate = "2018-03-12";
+	var curDate = new Date();
+	var difference = Math.floor(( curDate - Date.parse( lastDate )) / 86400000);
+</script>
+
+<div class="metrics">
+<div class="metric">
+	<span class="number">46</span>
+	<span class="label">this year</span>
+</div>
+<div class="metric">
+	<span class="number"></span>
+	<span class="label">days since<br />
+	last incident</span>
+</div>
+</div>
 
 <a class="twitter-share-button"
 	href="https://twitter.com/share"
@@ -13,3 +28,9 @@ title: "Mass Shootings in the United States"
 	data-via="FelicianoTech"
 	data-related="AMarch4OurLives">
 Tweet</a>
+
+[data source](http://www.gunviolencearchive.org/reports/mass-shooting)
+
+<script type="text/JavaScript">
+	$( "div.metric span.number" ).eq(1).html( difference );
+</script>

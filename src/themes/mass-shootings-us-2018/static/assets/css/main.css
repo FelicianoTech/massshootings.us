@@ -192,28 +192,6 @@ body.section-events main.list{
 		background-color: #F79432;
 	}
 
-body.section-events main.single{
-}
-	body.section-events main.single img.painting{
-		width: 100%;
-	}
-
-	body.section-events main.single li{
-		list-style: none;
-	}
-
-	body.section-events main.single .buy-button-wrapper{
-		margin-bottom: 0;
-		border-top: 1px solid #000000;
-		padding: 20px 0 0;
-		text-align: center;
-	}
-		body.section-events main.single select{
-			height: 34px;
-		}
-
-		body.section-events main.single .buy-button{
-		}
 
 /************************************************
  * Output Formats
@@ -254,72 +232,23 @@ h1.poster{
 /************************************************
  * Elements
  * *********************************************/
-span.major-number{
-	display: block;
-	margin-bottom: -60px;
-	font-size: 14.0rem;
-	color: #FF0000;
+div.metrics{
+	display: inline-flex;
+	text-align: center;
 }
-
-.button{
-	display: inline-block;
-	margin: 0;
-	background-color: #00A84F;
-	padding: 5px 15px;
-	color: #FFFFFF !important;
-	text-decoration: none !important;
-}
-	.button:hover{
-		background: #008F43;
+	div.metric{
+		padding: 0 25px;
 	}
 
-	.button i{
-		margin-right: 7px;
+	div.metric span.number{
+		display: block;
+		margin-bottom: -60px;
+		font-size: 14.0rem;
+		color: #FF0000;
 	}
 
-.pager{
-	margin: 5px 5% 60px;
-	border-top: 1px dotted #DDDDDD;
-	padding: 5px;
-	height: 60px;
-}
-	.pager a{
-		color: #000000;
-		text-decoration: none;
-		font-weight: bold;
-	}
-		.pager a:hover{
-			text-decoration: underline;
-		}
-
-		.pager a.newer{
-			float: left;
-		}
-
-		.pager a.older{
-			float: right;
-		}
-
-form{
-	margin: 0 auto;
-	width: 80%;
-}
-	form label{
-		font-weight: bold;
-	}
-
-	form input{
-		width: 100%;
-	}
-
-	form textarea{
-		width: 100%;
-		height: 100px;
-	}
-
-	form input[type="submit"]{
-		margin: 0 auto;
-		width: 100px;
+	div.metric span.label{
+		line-height: 1;
 	}
 
 

@@ -13,4 +13,8 @@ main{
 	main h1{
 		font-size: 4.0rem;
 	}
+
+	div.metrics{
+		display: block;
+	}
 }

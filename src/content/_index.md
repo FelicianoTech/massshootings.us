@@ -10,7 +10,7 @@ title: "Mass Shootings in the United States"
 
 <div class="metrics">
 <div class="metric">
-	<span class="number">57</span>
+	<span class="number">56</span>
 	<span class="label">this year</span>
 </div>
 <div class="metric">
@@ -22,7 +22,7 @@ title: "Mass Shootings in the United States"
 
 <a class="twitter-share-button"
 	href="https://twitter.com/share"
-	data-text="There have been 57 mass shootings in the U.S. already this year! "
+	data-text="There have been 56 mass shootings in the U.S. already this year! "
 	data-hashtags="MarchForOurLives"
 	data-url="https://massshootings.us"
 	data-via="FelicianoTech"

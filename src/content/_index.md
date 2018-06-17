@@ -3,14 +3,14 @@ title: "Mass Shootings in the United States"
 ---
 
 <script type="text/JavaScript">
-	var lastDate = "2018-05-22";
+	var lastDate = "2018-06-14";
 	var curDate = new Date();
 	var difference = Math.floor(( curDate - Date.parse( lastDate )) / 86400000);
 </script>
 
 <div class="metrics">
 <div class="metric">
-	<span class="number">103</span>
+	<span class="number">129</span>
 	<span class="label">this year</span>
 </div>
 <div class="metric">
@@ -22,7 +22,7 @@ title: "Mass Shootings in the United States"
 
 <a class="twitter-share-button"
 	href="https://twitter.com/share"
-	data-text="There have been 103 mass shootings in the U.S. already this year! "
+	data-text="There have been 129 mass shootings in the U.S. already this year! "
 	data-hashtags="MarchForOurLives"
 	data-url="https://massshootings.us"
 	data-via="FelicianoTech"
